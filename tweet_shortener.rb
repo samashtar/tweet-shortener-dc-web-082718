@@ -18,7 +18,7 @@ end
                 word = dictionary[word.downcase]
         else
             word
-        end
+        
     end
     puts tweet_array.join(" ")
 end
