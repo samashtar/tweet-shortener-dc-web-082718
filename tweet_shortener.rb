@@ -11,6 +11,7 @@
         "and" => "&"
     }
 end
+
  def word_substituter(tweet)
     tweet_array = tweet.split.map do |word|
         if dictionary.keys.include?(word.downcase)
@@ -21,13 +22,14 @@ end
     end
     puts tweet_array.join(" ")
 end
- =begin
+
+
 def bulk_tweet_shortener(tweet_array)
     tweet_array.each do |tweet|
         puts word_substituter(tweet)
     end
-end
-=end
+
+
 def shortened_tweet_truncator(tweet)
     shortened = word_substituter(tweet)
     if shortened.length > 140
