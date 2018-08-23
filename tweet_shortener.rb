@@ -18,7 +18,7 @@ end
                 word = dictionary[word.downcase]
         else
             word
-        
+        end
     end
     puts tweet_array.join(" ")
 end
@@ -28,6 +28,7 @@ def bulk_tweet_shortener(tweet_array)
     tweet_array.each do |tweet|
         puts word_substituter(tweet)
     end
+  end
 
 
 def shortened_tweet_truncator(tweet)
