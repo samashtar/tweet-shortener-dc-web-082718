@@ -1,4 +1,7 @@
-def dictionary 
+def dictionary
+  {:}
+  
+  
 end 
 
 
