@@ -1,5 +1,5 @@
 def dictionary
-  {:}
+  {"hello": "hi", }
   
   
 end 
